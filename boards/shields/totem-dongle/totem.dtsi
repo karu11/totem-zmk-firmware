@@ -11,6 +11,7 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &default_layout;
+        num-keys = <41>;
     };
 
     default_transform: keymap_transform_0 {
