@@ -249,8 +249,14 @@ layers:
   - SPACE
   - ENTER
   - ESC
+  - ESC
+  - ESC
+  - ESC
   - {t: Default, h: toggle}
   '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
