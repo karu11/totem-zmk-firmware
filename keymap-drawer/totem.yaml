@@ -83,6 +83,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Sym:
   - '!'
   - '@'
@@ -122,6 +125,9 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: Default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Func:
   - F1
   - F2
