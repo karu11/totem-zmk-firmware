@@ -256,7 +256,7 @@
             &kp Q           &kp W           &kp E               &kp R             &kp T        &kp Y      &kp U              &kp I                &kp O            &kp P      &mo 3
 &kp ESCAPE  &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G        &kp H      &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI   &kp APOS
 &mo 0       &kp Z           &kp X           &kp C               &kp V             &kp B        &kp N      &kp M              &kp COMMA            &kp DOT          &kp SLASH  &kp BACKSLASH
-                                            &kp BACKSPACE       &lt 1 SPACE       &kp SPACE    &kp ENTER  &lt 2 BACKSPACE    &kp MINUS
+                                            &kp BACKSPACE       &lt 1 TAB         &kp SPACE    &kp ENTER  &lt 2 BACKSPACE    &kp MINUS
             >;
         };
 
@@ -307,6 +307,17 @@
 &trans  &trans            &trans  &trans  &trans  &trans    &trans  &trans   &trans   &trans   &accs O               &trans
                                   &trans  &trans  &trans    &trans  &trans   &trans
             >;
+        };
+
+        Fun {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &to 3     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "Fun";
         };
     };
 };
