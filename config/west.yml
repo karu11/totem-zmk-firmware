@@ -6,10 +6,10 @@ manifest:
     #  url-base: https://github.com/urob
     - name: karuetech
       url-base: https://github.com/karuetech
-    #- name: carrefinho
-    # url-base: https://github.com/bukharovsi
+    - name: carrefinho
+      url-base: https://github.com/bukharovsi
     - name: bwshockley
-      url-base: https://github.com/bwshockley/
+      url-base: https://github.com/bwshockley
     - name: janpfischer
       url-base: https://github.com/janpfischer
     - name: joaopedropio                          # <--- add these
@@ -26,12 +26,12 @@ manifest:
     - name: zmk-helpers
       remote: karuetech
       revision: main
-    - name: prospector-zmk-module
+    - name: prospectmod-zmk-module
       remote: bwshockley
       revision: main
-    #- name: prospector-zmk-module
-    #  remote: carrefinho
-    #  revision: main
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: main
     - name: zmk-dongle-screen
       remote: janpfischer
       revision: main
