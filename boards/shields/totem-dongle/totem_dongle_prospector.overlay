@@ -8,6 +8,7 @@
 
 / {
     chosen {
+        zephyr,display = &st7789;
         zmk,kscan = &mock_kscan;
         wakeup-source;
     };
